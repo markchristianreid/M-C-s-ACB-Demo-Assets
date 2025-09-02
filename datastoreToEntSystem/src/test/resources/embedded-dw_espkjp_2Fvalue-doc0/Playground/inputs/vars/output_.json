@@ -1,0 +1,23 @@
+[
+  {
+    "id": 29,
+    "categories": "a",
+    "colors": "aliquam",
+    "createdDate": "at",
+    "modifiedDate": "risus",
+    "safetyStockLevel": 62,
+    "stock": 84,
+    "daysToManufacture": 79,
+    "name": "Bruce",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce at arcu lectus. Nam lorem nibh pretium a nisi a viverra consectetur dui. In ac tincidunt libero. Pellentesque pulvinar justo vitae molestie tempor",
+    "images": "dui",
+    "listPrice": 0.23,
+    "manufactured": false,
+    "productNumber": "felis",
+    "size": "consectetur",
+    "sizeUnitMeasureCode": "convallis",
+    "standardCost": 59,
+    "weightUnitMeasureCode": "venenatis",
+    "weight": 43
+  }
+]

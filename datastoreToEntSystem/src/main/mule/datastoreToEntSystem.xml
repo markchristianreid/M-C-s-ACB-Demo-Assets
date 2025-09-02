@@ -1,0 +1,64 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:salesforce="http://www.mulesoft.org/schema/mule/salesforce" xmlns:servicenow="http://www.mulesoft.org/schema/mule/servicenow" xmlns:vm="http://www.mulesoft.org/schema/mule/vm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:idp-invoices-100="http://www.mulesoft.org/schema/mule/idp-invoices-100" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mule/salesforce/current/mule-salesforce.xsd http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd  http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd  http://www.mulesoft.org/schema/mule/servicenow http://www.mulesoft.org/schema/mule/servicenow/current/mule-servicenow.xsd
+	http://www.mulesoft.org/schema/mule/idp-invoices-100 http://www.mulesoft.org/schema/mule/idp-invoices-100/current/mule-idp-invoices-100.xsd">
+  <configuration-properties doc:id="ce47a98f-e95a-4c80-946e-acfad09e6ce5" doc:name="Configuration properties" file="config/configuration.yaml"></configuration-properties>
+  <http:listener-config doc:id="27da4fcb-c954-478f-8ca3-b7b8b0a89193" doc:name="HTTP Listener config" name="HTTP_Listener_config">
+    <http:listener-connection host="0.0.0.0" port="8081"></http:listener-connection>
+  </http:listener-config>
+  <db:config doc:id="d31a5637-6e7e-46c5-afeb-a9755bb9da98" doc:name="Database Config" name="Products_Database_Configuration">
+    <db:my-sql-connection database="${mysql.database}" host="${mysql.host}" password="${mysql.password}" port="${mysql.port}" user="${mysql.user}"></db:my-sql-connection>
+  </db:config>
+  <salesforce:sfdc-config doc:id="e64f4c71-d6c3-411a-b563-3d39d0b6e31d" doc:name="Salesforce Config" name="Salesforce_Config">
+    <salesforce:basic-connection doc:id="ad17ba68-5029-423b-9e24-8ae3bfcf90b8" password="zfg@cyh7NPC.dew3dwt" url="https://storm-979751e5d373e7.my.salesforce.com/services/Soap/u/61.0" username="storm.979751e5d373e7@salesforce.com"></salesforce:basic-connection>
+  </salesforce:sfdc-config>
+  <file:config name="Config">
+    <file:connection workingDir="/Users/markchristian.reid/AnypointCodeBuilder/workspaces/intakeDir"></file:connection>
+  </file:config>
+  <flow doc:id="df64b860-df57-473a-8b09-ee2ac4a8032a" name="Database to salesforce">
+    <http:listener config-ref="HTTP_Listener_config" doc:id="7e150ee5-3103-4e28-9df6-a0f198716fc5" doc:name="/dbtosf" path="/dbtosf"></http:listener>
+    <db:select config-ref="Products_Database_Configuration" doc:id="28241964-999a-4c8f-bece-3cb235a8f48f" doc:name="Get Products">
+      <db:sql><![CDATA[SELECT * FROM product p
+LIMIT 10]]></db:sql>
+    </db:select>
+        <set-variable value='#[payload map (product, index) -&gt; {
+	id:                                            product.id,
+    categories:                              product.categories,
+    colors:                                     product.colors,
+    createdDate:                          product.created_date as String {format: "yyyy-MM-dd"},
+    modifiedDate:                        product.modified_date as String {format: "yyyy-MM-dd"},
+    safetyStockLevel:                  product.safety_stock_level as Number,
+    stock:                                     product.stock as Number,
+    daysToManufacture:              product.days_to_manufacture,
+    name:                                     product.name,
+    description:                           product.description,
+    images:                                  product.images,
+    listPrice:                                 product.list_price,
+    manufactured:                       product.manufactured,
+    productNumber:                    product.product_number,
+    size:                                        product.size,
+    sizeUnitMeasureCode:          product.size_unit_measure_code,
+    standardCost:                        product.standard_cost,
+    weightUnitMeasureCode:     product.weight_unit_measure_code,
+    weight:                                   product.weight
+}]' variableName="output_" doc:name="Store output" doc:id="ejbtat" />
+<salesforce:create config-ref="Salesforce_Config" doc:id="b7f9cdec-2778-445e-8637-57eb3aac0b2c" doc:name="Insert to Salesforcece" type="MCProduct__c">
+      <salesforce:records><![CDATA[#[%dw 2.0
+output application/java
+---
+payload map (product) -> {
+  Name:                             product.name,
+  categories__c:               product.categories,
+  colors__c:                      product.colors,
+  description__c:              product.description,
+  listPrice:                         product.listPrice,
+  productNumber__c:      product.productNumber,
+  size__c:                          product.size,
+  cost__c:                          product.standardCost
+}]]]></salesforce:records>
+    </salesforce:create>
+        <set-payload value="#[%dw 2.0
+output application/json
+---
+vars.output_]" doc:name="Set output" doc:id="espkjp"/>
+  </flow>
+</mule>

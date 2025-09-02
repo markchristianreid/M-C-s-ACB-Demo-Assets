@@ -1,0 +1,71 @@
+{
+  "basicConstraints": 39,
+  "criticalExtensionOIDs": [
+    "venenatis",
+    "eros"
+  ],
+  "extendedKeyUsage": [
+    "risus",
+    "nunc",
+    "consectetur"
+  ],
+  "extensions": [
+    {
+      "criticality": true,
+      "oid": "convallis"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Chadwick",
+      "type": 64
+    }
+  ],
+  "issuerDN": {
+    "commonName": "at",
+    "name": "Chauncey"
+  },
+  "issuerUniqueID": [
+    false,
+    false
+  ],
+  "issuerX500Principal": {
+    "name": "Alvina"
+  },
+  "keyUsage": [
+    true,
+    true
+  ],
+  "name": "Aleen",
+  "nonCriticalExtensionOIDs": [
+    "lorem",
+    "Aliquam"
+  ],
+  "publicKey": {
+    "algorithm": "elit",
+    "modulus": 16,
+    "params": 37,
+    "publicKey": "nunc"
+  },
+  "serialNumber": 62,
+  "serialNumberObject": {
+    "serialNumber": 10
+  },
+  "sigAlgName": "nunc",
+  "sigAlgOID": "consectetur",
+  "subjectAlternativeNames": [
+    {
+      "name": "Amy",
+      "type": 13
+    }
+  ],
+  "subjectDN": {
+    "commonName": "dui",
+    "name": "Adeline"
+  },
+  "subjectX500Principal": {
+    "name": "Abbey"
+  },
+  "type": "consectetur",
+  "version": 63
+}

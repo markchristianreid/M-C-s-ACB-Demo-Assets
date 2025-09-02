@@ -1,0 +1,23 @@
+[
+  {
+    "id": 95,
+    "categories": "erat",
+    "colors": "lorem",
+    "createdDate": "risus",
+    "modifiedDate": "ipsum",
+    "safetyStockLevel": 70,
+    "stock": 8,
+    "daysToManufacture": 64,
+    "name": "Damian",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce at arcu lectus. Nam lorem nibh pretium a nisi a viverra consectetur dui. In ac",
+    "images": "tempor",
+    "listPrice": 0.87,
+    "manufactured": true,
+    "productNumber": "ac",
+    "size": "Nam",
+    "sizeUnitMeasureCode": "aliquam",
+    "standardCost": 85,
+    "weightUnitMeasureCode": "Nunc",
+    "weight": 79
+  }
+]

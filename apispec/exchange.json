@@ -1,0 +1,11 @@
+{
+  "main": "testapi.yaml",
+  "name": "testapi",
+  "classifier": "oas",
+  "organizationId": "b02e4c92-2d52-4ea7-b65c-1efee64a1675",
+  "descriptorVersion": "1.0.0",
+  "groupId": "b02e4c92-2d52-4ea7-b65c-1efee64a1675",
+  "assetId": "testapi",
+  "version": "1.0.0",
+  "tags": []
+}

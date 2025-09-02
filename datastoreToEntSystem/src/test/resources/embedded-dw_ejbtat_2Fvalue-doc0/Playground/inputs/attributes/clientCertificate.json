@@ -1,0 +1,72 @@
+{
+  "basicConstraints": 96,
+  "criticalExtensionOIDs": [
+    "libero",
+    "Nunc"
+  ],
+  "extendedKeyUsage": [
+    "eros",
+    "sodales",
+    "sodales"
+  ],
+  "extensions": [
+    {
+      "criticality": false,
+      "oid": "a"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Danial",
+      "type": 39
+    }
+  ],
+  "issuerDN": {
+    "commonName": "risus",
+    "name": "Adam"
+  },
+  "issuerUniqueID": [
+    false,
+    false
+  ],
+  "issuerX500Principal": {
+    "name": "Alexis"
+  },
+  "keyUsage": [
+    true,
+    false,
+    false
+  ],
+  "name": "Alexia",
+  "nonCriticalExtensionOIDs": [
+    "elit",
+    "pretium"
+  ],
+  "publicKey": {
+    "algorithm": "ut",
+    "modulus": 96,
+    "params": 85,
+    "publicKey": "amet"
+  },
+  "serialNumber": 81,
+  "serialNumberObject": {
+    "serialNumber": 65
+  },
+  "sigAlgName": "erat",
+  "sigAlgOID": "a",
+  "subjectAlternativeNames": [
+    {
+      "name": "Cortez",
+      "type": 64
+    }
+  ],
+  "subjectDN": {
+    "commonName": "sit",
+    "name": "Cameron"
+  },
+  "subjectX500Principal": {
+    "name": "Abigail"
+  },
+  "type": "lorem",
+  "version": 3
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 27,
+    "categories": [
+      "tincidunt",
+      "risus",
+      "elit"
+    ],
+    "colors": [
+      "viverra",
+      "consectetur"
+    ],
+    "createdDate": "elit",
+    "modifiedDate": "aliquam",
+    "safetyStockLevel": 87,
+    "stock": 78,
+    "daysToManufacture": 79,
+    "name": "Alia",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce at arcu lectus. Nam lorem nibh pretium a nisi a viverra consectetur dui.",
+    "images": [
+      "pretium",
+      "ut"
+    ],
+    "listPrice": 0.62,
+    "manufactured": false,
+    "productNumber": "molestie",
+    "size": "a",
+    "standardCost": 51
+  }
+]

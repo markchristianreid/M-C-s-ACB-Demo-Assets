@@ -1,0 +1,60 @@
+openapi: 3.0.0
+info:
+  title: Book Store API
+  version: 1.0.0
+servers:
+  - url: https://api.bookstore.com
+paths:
+  /orders:
+    post:
+      summary: Create a new book purchase order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                bookId:
+                  type: string
+                  description: The ID of the book being ordered
+                quantity:
+                  type: integer
+                  description: The number of copies being ordered
+              required:
+                - bookId
+                - quantity
+      responses:
+        '201':
+          description: Order created successfully
+        '400':
+          description: Invalid request
+        '500':
+          description: Internal server error
+  /inventory:
+    get:
+      summary: Query current book inventory information
+      responses:
+        '200':
+          description: A list of books in the inventory
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    bookId:
+                      type: string
+                      description: The ID of the book
+                    title:
+                      type: string
+                      description: The title of the book
+                    author:
+                      type: string
+                      description: The author of the book
+                    quantity:
+                      type: integer
+                      description: The number of copies available
+        '500':
+          description: Internal server error

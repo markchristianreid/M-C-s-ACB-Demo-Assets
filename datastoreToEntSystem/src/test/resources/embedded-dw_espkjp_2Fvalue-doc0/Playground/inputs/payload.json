@@ -1,0 +1,753 @@
+{
+  "items": [
+    {
+      "exception": {
+        "cause": {
+          "cause": {
+            "cause": {
+              "cause": {
+                "cause": {
+                  "localizedMessage": "Pellentesque",
+                  "message": "a"
+                },
+                "localizedMessage": "adipiscing",
+                "message": "nunc",
+                "stackTrace": [
+                  {
+                    "classLoaderName": "libero",
+                    "className": "Alan",
+                    "fileName": "Alfreda",
+                    "lineNumber": 26,
+                    "methodName": "mi",
+                    "moduleName": "adipiscing",
+                    "moduleVersion": "sodales",
+                    "nativeMethod": false
+                  }
+                ],
+                "suppressed": [
+                  {
+                    "localizedMessage": "a",
+                    "message": "adipiscing"
+                  }
+                ]
+              },
+              "localizedMessage": "dictum",
+              "message": "justo",
+              "stackTrace": [
+                {
+                  "classLoaderName": "dolor",
+                  "className": "Abraham",
+                  "fileName": "Alene",
+                  "lineNumber": 88,
+                  "methodName": "tempor",
+                  "moduleName": "molestie",
+                  "moduleVersion": "dolor",
+                  "nativeMethod": false
+                }
+              ],
+              "suppressed": [
+                {
+                  "cause": {
+                    "localizedMessage": "ut",
+                    "message": "Fusce"
+                  },
+                  "localizedMessage": "convallis",
+                  "message": "vitae",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "sed",
+                      "className": "Alyse",
+                      "fileName": "Alfredia",
+                      "lineNumber": 74,
+                      "methodName": "Nunc",
+                      "moduleName": "venenatis",
+                      "moduleVersion": "Pellentesque",
+                      "nativeMethod": false
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "localizedMessage": "Nunc",
+                      "message": "consectetur"
+                    }
+                  ]
+                }
+              ]
+            },
+            "localizedMessage": "Aliquam",
+            "message": "lectus",
+            "stackTrace": [
+              {
+                "classLoaderName": "justo",
+                "className": "Coleman",
+                "fileName": "Adriane",
+                "lineNumber": 40,
+                "methodName": "molestie",
+                "moduleName": "ac",
+                "moduleVersion": "In",
+                "nativeMethod": false
+              }
+            ],
+            "suppressed": [
+              {
+                "cause": {
+                  "cause": {
+                    "localizedMessage": "consectetur",
+                    "message": "pretium"
+                  },
+                  "localizedMessage": "arcu",
+                  "message": "sodales",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "tempor",
+                      "className": "Agripina",
+                      "fileName": "Alma",
+                      "lineNumber": 75,
+                      "methodName": "faucibus",
+                      "moduleName": "arcu",
+                      "moduleVersion": "venenatis",
+                      "nativeMethod": false
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "localizedMessage": "Fusce",
+                      "message": "tincidunt"
+                    }
+                  ]
+                },
+                "localizedMessage": "Pellentesque",
+                "message": "eros",
+                "stackTrace": [
+                  {
+                    "classLoaderName": "arcu",
+                    "className": "Claudio",
+                    "fileName": "Cecil",
+                    "lineNumber": 97,
+                    "methodName": "felis",
+                    "moduleName": "Nam",
+                    "moduleVersion": "libero",
+                    "nativeMethod": true
+                  }
+                ],
+                "suppressed": [
+                  {
+                    "cause": {
+                      "localizedMessage": "felis",
+                      "message": "nibh"
+                    },
+                    "localizedMessage": "ut",
+                    "message": "sodales",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "consectetur",
+                        "className": "Aline",
+                        "fileName": "Alysa",
+                        "lineNumber": 40,
+                        "methodName": "venenatis",
+                        "moduleName": "sodales",
+                        "moduleVersion": "mi",
+                        "nativeMethod": true
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "localizedMessage": "faucibus",
+                        "message": "Fusce"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "localizedMessage": "justo",
+          "message": "nunc",
+          "stackTrace": [
+            {
+              "classLoaderName": "risus",
+              "className": "Carlo",
+              "fileName": "Chris",
+              "lineNumber": 11,
+              "methodName": "tempor",
+              "moduleName": "erat",
+              "moduleVersion": "nibh",
+              "nativeMethod": false
+            }
+          ],
+          "suppressed": [
+            {
+              "cause": {
+                "cause": {
+                  "cause": {
+                    "localizedMessage": "sit",
+                    "message": "lorem"
+                  },
+                  "localizedMessage": "Lorem",
+                  "message": "molestie",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "viverra",
+                      "className": "Chester",
+                      "fileName": "Bryon",
+                      "lineNumber": 28,
+                      "methodName": "mi",
+                      "moduleName": "Nam",
+                      "moduleVersion": "molestie",
+                      "nativeMethod": true
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "localizedMessage": "nunc",
+                      "message": "consectetur"
+                    }
+                  ]
+                },
+                "localizedMessage": "Fusce",
+                "message": "tempor",
+                "stackTrace": [
+                  {
+                    "classLoaderName": "nunc",
+                    "className": "Alline",
+                    "fileName": "Allyn",
+                    "lineNumber": 48,
+                    "methodName": "ac",
+                    "moduleName": "Lorem",
+                    "moduleVersion": "ut",
+                    "nativeMethod": false
+                  }
+                ],
+                "suppressed": [
+                  {
+                    "cause": {
+                      "localizedMessage": "arcu",
+                      "message": "ipsum"
+                    },
+                    "localizedMessage": "molestie",
+                    "message": "dolor",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "consectetur",
+                        "className": "Almeta",
+                        "fileName": "Almeta",
+                        "lineNumber": 98,
+                        "methodName": "sodales",
+                        "moduleName": "a",
+                        "moduleVersion": "sodales",
+                        "nativeMethod": true
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "localizedMessage": "ac",
+                        "message": "sodales"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "localizedMessage": "amet",
+              "message": "libero",
+              "stackTrace": [
+                {
+                  "classLoaderName": "dolor",
+                  "className": "Alane",
+                  "fileName": "Cordell",
+                  "lineNumber": 24,
+                  "methodName": "lorem",
+                  "moduleName": "molestie",
+                  "moduleVersion": "molestie",
+                  "nativeMethod": false
+                }
+              ],
+              "suppressed": [
+                {
+                  "cause": {
+                    "cause": {
+                      "localizedMessage": "lorem",
+                      "message": "nunc"
+                    },
+                    "localizedMessage": "amet",
+                    "message": "justo",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "ipsum",
+                        "className": "Alpha",
+                        "fileName": "Albert",
+                        "lineNumber": 89,
+                        "methodName": "tempor",
+                        "moduleName": "tincidunt",
+                        "moduleVersion": "aliquam",
+                        "nativeMethod": true
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "localizedMessage": "vitae",
+                        "message": "consectetur"
+                      }
+                    ]
+                  },
+                  "localizedMessage": "aliquam",
+                  "message": "at",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "libero",
+                      "className": "Alejandro",
+                      "fileName": "Christian",
+                      "lineNumber": 22,
+                      "methodName": "sodales",
+                      "moduleName": "semper",
+                      "moduleVersion": "at",
+                      "nativeMethod": true
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "cause": {
+                        "localizedMessage": "sit",
+                        "message": "Nunc"
+                      },
+                      "localizedMessage": "ac",
+                      "message": "dictum",
+                      "stackTrace": [
+                        {
+                          "classLoaderName": "dui",
+                          "className": "Abby",
+                          "fileName": "Bruno",
+                          "lineNumber": 64,
+                          "methodName": "at",
+                          "moduleName": "sodales",
+                          "moduleVersion": "ipsum",
+                          "nativeMethod": false
+                        }
+                      ],
+                      "suppressed": [
+                        {
+                          "localizedMessage": "convallis",
+                          "message": "Lorem"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "localizedMessage": "Lorem",
+        "message": "semper",
+        "stackTrace": [
+          {
+            "classLoaderName": "tempor",
+            "className": "Alethia",
+            "fileName": "Darell",
+            "lineNumber": 34,
+            "methodName": "In",
+            "moduleName": "tincidunt",
+            "moduleVersion": "tempor",
+            "nativeMethod": true
+          }
+        ],
+        "suppressed": [
+          {
+            "cause": {
+              "cause": {
+                "cause": {
+                  "cause": {
+                    "localizedMessage": "dolor",
+                    "message": "arcu"
+                  },
+                  "localizedMessage": "nisi",
+                  "message": "faucibus",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "molestie",
+                      "className": "Charlie",
+                      "fileName": "Afton",
+                      "lineNumber": 78,
+                      "methodName": "semper",
+                      "moduleName": "a",
+                      "moduleVersion": "dolor",
+                      "nativeMethod": true
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "localizedMessage": "viverra",
+                      "message": "eget"
+                    }
+                  ]
+                },
+                "localizedMessage": "ut",
+                "message": "venenatis",
+                "stackTrace": [
+                  {
+                    "classLoaderName": "nunc",
+                    "className": "Clair",
+                    "fileName": "Colin",
+                    "lineNumber": 32,
+                    "methodName": "a",
+                    "moduleName": "amet",
+                    "moduleVersion": "lectus",
+                    "nativeMethod": true
+                  }
+                ],
+                "suppressed": [
+                  {
+                    "cause": {
+                      "localizedMessage": "at",
+                      "message": "risus"
+                    },
+                    "localizedMessage": "ac",
+                    "message": "Aliquam",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "nunc",
+                        "className": "Abe",
+                        "fileName": "Cliff",
+                        "lineNumber": 22,
+                        "methodName": "ipsum",
+                        "moduleName": "tempor",
+                        "moduleVersion": "adipiscing",
+                        "nativeMethod": true
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "localizedMessage": "viverra",
+                        "message": "ac"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "localizedMessage": "sed",
+              "message": "a",
+              "stackTrace": [
+                {
+                  "classLoaderName": "nunc",
+                  "className": "An",
+                  "fileName": "Colin",
+                  "lineNumber": 64,
+                  "methodName": "aliquam",
+                  "moduleName": "Lorem",
+                  "moduleVersion": "pretium",
+                  "nativeMethod": true
+                }
+              ],
+              "suppressed": [
+                {
+                  "cause": {
+                    "cause": {
+                      "localizedMessage": "risus",
+                      "message": "adipiscing"
+                    },
+                    "localizedMessage": "consectetur",
+                    "message": "sit",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "arcu",
+                        "className": "Chang",
+                        "fileName": "Adell",
+                        "lineNumber": 12,
+                        "methodName": "at",
+                        "moduleName": "venenatis",
+                        "moduleVersion": "elit",
+                        "nativeMethod": true
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "localizedMessage": "tempor",
+                        "message": "erat"
+                      }
+                    ]
+                  },
+                  "localizedMessage": "tempor",
+                  "message": "dolor",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "nunc",
+                      "className": "Alexis",
+                      "fileName": "Alexa",
+                      "lineNumber": 71,
+                      "methodName": "ipsum",
+                      "moduleName": "pulvinar",
+                      "moduleVersion": "arcu",
+                      "nativeMethod": true
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "cause": {
+                        "localizedMessage": "sit",
+                        "message": "erat"
+                      },
+                      "localizedMessage": "pretium",
+                      "message": "viverra",
+                      "stackTrace": [
+                        {
+                          "classLoaderName": "dui",
+                          "className": "Alida",
+                          "fileName": "Christian",
+                          "lineNumber": 43,
+                          "methodName": "aliquam",
+                          "moduleName": "erat",
+                          "moduleVersion": "convallis",
+                          "nativeMethod": false
+                        }
+                      ],
+                      "suppressed": [
+                        {
+                          "localizedMessage": "justo",
+                          "message": "at"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "localizedMessage": "nunc",
+            "message": "ac",
+            "stackTrace": [
+              {
+                "classLoaderName": "risus",
+                "className": "Clark",
+                "fileName": "Alicia",
+                "lineNumber": 10,
+                "methodName": "sodales",
+                "moduleName": "dui",
+                "moduleVersion": "consectetur",
+                "nativeMethod": true
+              }
+            ],
+            "suppressed": [
+              {
+                "cause": {
+                  "cause": {
+                    "cause": {
+                      "localizedMessage": "dolor",
+                      "message": "aliquam"
+                    },
+                    "localizedMessage": "libero",
+                    "message": "sit",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "tempor",
+                        "className": "Chong",
+                        "fileName": "Adam",
+                        "lineNumber": 65,
+                        "methodName": "a",
+                        "moduleName": "nunc",
+                        "moduleVersion": "lorem",
+                        "nativeMethod": true
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "localizedMessage": "arcu",
+                        "message": "lectus"
+                      }
+                    ]
+                  },
+                  "localizedMessage": "ut",
+                  "message": "risus",
+                  "stackTrace": [
+                    {
+                      "classLoaderName": "Nam",
+                      "className": "Dalton",
+                      "fileName": "Colby",
+                      "lineNumber": 99,
+                      "methodName": "libero",
+                      "moduleName": "faucibus",
+                      "moduleVersion": "risus",
+                      "nativeMethod": true
+                    }
+                  ],
+                  "suppressed": [
+                    {
+                      "cause": {
+                        "localizedMessage": "molestie",
+                        "message": "adipiscing"
+                      },
+                      "localizedMessage": "a",
+                      "message": "aliquam",
+                      "stackTrace": [
+                        {
+                          "classLoaderName": "ac",
+                          "className": "Colton",
+                          "fileName": "Clifford",
+                          "lineNumber": 37,
+                          "methodName": "ipsum",
+                          "moduleName": "adipiscing",
+                          "moduleVersion": "amet",
+                          "nativeMethod": true
+                        }
+                      ],
+                      "suppressed": [
+                        {
+                          "localizedMessage": "amet",
+                          "message": "mi"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "localizedMessage": "sed",
+                "message": "nisi",
+                "stackTrace": [
+                  {
+                    "classLoaderName": "nisi",
+                    "className": "Aida",
+                    "fileName": "Damien",
+                    "lineNumber": 15,
+                    "methodName": "lorem",
+                    "moduleName": "eget",
+                    "moduleVersion": "amet",
+                    "nativeMethod": true
+                  }
+                ],
+                "suppressed": [
+                  {
+                    "cause": {
+                      "cause": {
+                        "localizedMessage": "ac",
+                        "message": "mi"
+                      },
+                      "localizedMessage": "nunc",
+                      "message": "sed",
+                      "stackTrace": [
+                        {
+                          "classLoaderName": "ut",
+                          "className": "Adrien",
+                          "fileName": "Allyn",
+                          "lineNumber": 40,
+                          "methodName": "sodales",
+                          "moduleName": "ipsum",
+                          "moduleVersion": "pretium",
+                          "nativeMethod": false
+                        }
+                      ],
+                      "suppressed": [
+                        {
+                          "localizedMessage": "semper",
+                          "message": "at"
+                        }
+                      ]
+                    },
+                    "localizedMessage": "felis",
+                    "message": "Aliquam",
+                    "stackTrace": [
+                      {
+                        "classLoaderName": "In",
+                        "className": "Alona",
+                        "fileName": "Alta",
+                        "lineNumber": 6,
+                        "methodName": "adipiscing",
+                        "moduleName": "ac",
+                        "moduleVersion": "pretium",
+                        "nativeMethod": false
+                      }
+                    ],
+                    "suppressed": [
+                      {
+                        "cause": {
+                          "localizedMessage": "arcu",
+                          "message": "nunc"
+                        },
+                        "localizedMessage": "sed",
+                        "message": "Pellentesque",
+                        "stackTrace": [
+                          {
+                            "classLoaderName": "libero",
+                            "className": "Andera",
+                            "fileName": "Ailene",
+                            "lineNumber": 91,
+                            "methodName": "erat",
+                            "moduleName": "arcu",
+                            "moduleVersion": "sodales",
+                            "nativeMethod": true
+                          }
+                        ],
+                        "suppressed": [
+                          {
+                            "localizedMessage": "elit",
+                            "message": "dolor"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "message": "nunc",
+      "payload": {
+        "errors": [
+          {
+            "duplicateResult": {
+              "allowSave": true,
+              "duplicateRule": "tincidunt",
+              "duplicateRuleEntityType": "lectus",
+              "errorMessage": "tincidunt",
+              "matchResults": [
+                {
+                  "entityType": "aliquam",
+                  "errors": [
+                    {
+                      "fields": [
+                        "sed",
+                        "at",
+                        "consectetur"
+                      ],
+                      "message": "pretium",
+                      "statusCode": "risus"
+                    }
+                  ],
+                  "matchEngine": "a",
+                  "matchRecords": [
+                    {
+                      "additionalInformation": [
+                        {
+                          "name": "Anamaria",
+                          "value": "a"
+                        }
+                      ],
+                      "fieldDiffs": [
+                        {
+                          "difference": "dolor",
+                          "name": "Abel"
+                        }
+                      ],
+                      "matchConfidence": 17
+                    }
+                  ],
+                  "rule": "mi",
+                  "size": 13,
+                  "success": true
+                }
+              ]
+            },
+            "fields": [
+              "ut",
+              "faucibus"
+            ],
+            "message": "arcu",
+            "statusCode": "arcu"
+          }
+        ],
+        "id": "molestie",
+        "success": false
+      },
+      "statusCode": "libero",
+      "successful": true
+    }
+  ],
+  "successful": true
+}

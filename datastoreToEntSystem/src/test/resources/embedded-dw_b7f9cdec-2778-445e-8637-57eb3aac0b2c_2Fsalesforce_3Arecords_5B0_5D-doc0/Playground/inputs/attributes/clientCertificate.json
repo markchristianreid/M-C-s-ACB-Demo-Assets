@@ -1,0 +1,71 @@
+{
+  "basicConstraints": 5,
+  "criticalExtensionOIDs": [
+    "ipsum",
+    "felis"
+  ],
+  "extendedKeyUsage": [
+    "aliquam",
+    "eget"
+  ],
+  "extensions": [
+    {
+      "criticality": true,
+      "oid": "tempor"
+    }
+  ],
+  "issuerAlternativeNames": [
+    {
+      "name": "Amira",
+      "type": 69
+    }
+  ],
+  "issuerDN": {
+    "commonName": "dui",
+    "name": "Alonso"
+  },
+  "issuerUniqueID": [
+    false,
+    false
+  ],
+  "issuerX500Principal": {
+    "name": "Colby"
+  },
+  "keyUsage": [
+    false,
+    false,
+    true
+  ],
+  "name": "Carlton",
+  "nonCriticalExtensionOIDs": [
+    "pretium",
+    "pulvinar"
+  ],
+  "publicKey": {
+    "algorithm": "viverra",
+    "modulus": 27,
+    "params": 6,
+    "publicKey": "consectetur"
+  },
+  "serialNumber": 18,
+  "serialNumberObject": {
+    "serialNumber": 70
+  },
+  "sigAlgName": "molestie",
+  "sigAlgOID": "Nam",
+  "subjectAlternativeNames": [
+    {
+      "name": "Alonso",
+      "type": 3
+    }
+  ],
+  "subjectDN": {
+    "commonName": "sodales",
+    "name": "Alec"
+  },
+  "subjectX500Principal": {
+    "name": "Amberly"
+  },
+  "type": "justo",
+  "version": 19
+}

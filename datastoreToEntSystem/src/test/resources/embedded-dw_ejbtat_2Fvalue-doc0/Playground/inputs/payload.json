@@ -1,0 +1,21 @@
+[
+  {
+    "id": 54,
+    "name": "Alane",
+    "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce at arcu lectus. Nam lorem nibh pretium a nisi a viverra consectetur",
+    "product_number": "aliquam",
+    "manufactured": false,
+    "safety_stock_level": 96,
+    "standard_cost": 5,
+    "list_price": 0.86,
+    "size": "eros",
+    "size_unit_measure_code": "sit",
+    "weight_unit_measure_code": "molestie",
+    "weight": 57,
+    "days_to_manufacture": 31,
+    "colors": "consectetur",
+    "images": "elit",
+    "stock": 23,
+    "categories": "ipsum"
+  }
+]
